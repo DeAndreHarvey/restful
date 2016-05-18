@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
+  </head>
+  <body>
+      
+    <h3>Product {{product['id']}}</h3>
+      
+          Name : {{product['name']}}<br>
+          Description : {{product['description']}}<br>
+          Price : {{product['price']}}<br>
+      
+      <a href="/product/edit/{{product['id']}}">Edit</a>
+      <a href="/">Go Back</a>
+  </body>
+</html>
+    
